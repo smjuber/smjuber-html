@@ -1,0 +1,2836 @@
+@charset "UTF-8";
+/*
+Theme Name:             Smjuber
+Theme URI:              https://smjuber.com
+Description:            Smjuber Official Theme
+Version:                1.2.0
+License:                Smjuber Individual License
+Author:                 Smjuber
+Author URI:             https://smjuber.com
+Text Domain:            smjuber
+Domain Path:            /languages
+Tags:                   one-column, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tested up to:           5.6
+Requires at least:      5.0
+
+Copyright (c) 2016-2021 | SMJUBER
+
+
+
+          .::::::  ::.     .::  :::::::  ::    ::  ::::::.   ::::::: ::::::.
+         ::        :::     :::       ::  ::    ::  ::    ::  ::      ::    ::
+          '::::.   ::::   ::::  .::. ::  ::    ::  ::::::.   ::::::  ::::::'
+               ::  :: :: :: ::  :: ' ::  ::    ::  ::    ::  ::      :: '::
+         ::::::'   ::   :   ::   ':::'    '::::'   ::::::'   ::::::: ::   ::
+
+
+
+*/
+/* Table Of Contents:
+-------------------------------------------------
+: Theme Main Page
+: Forms
+: Navigation
+: Accessibility
+: Alignments
+: Clearings
+: Widgets
+: Content
+    :: Posts and pages
+    :: Comments
+: Media
+    :: Captions
+    :: Galleries
+------------------------------------------------- */
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    font-size: 18px;
+}
+
+.site-branding-logo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.site-branding-logo a {
+    font-family: 'arcaMajora3Heavy', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    font-size: 110px;
+}
+
+/* # Accessibility
+------------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; 
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+/* # Alignments
+------------------------------------------------- */
+
+/*.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/* # Clearings
+------------------------------------------------- */
+
+/*.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+    clear: both;
+}*/
+
+/* # Widgets
+------------------------------------------------- */
+
+/*.widget {
+    margin: 0 0 1.5em;*/
+    /* Make sure select elements fit in widgets. */
+/*}
+
+.widget select {
+    max-width: 100%;
+}*/
+
+/* # Content
+------------------------------------------------- */
+/* ## Posts and pages
+------------------------------------------------- */
+
+.sticky {
+    display: block;
+}
+
+.hentry {
+    margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+    display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+    margin: 1.5em 0 0;
+}
+
+.page-links {
+    clear: both;
+    margin: 0 0 1.5em;
+}
+
+/* ## Comments
+------------------------------------------------- */
+
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+/* # Media
+------------------------------------------------- */
+
+/*.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}*/
+
+/* Make sure embeds and iframes fit their containers. */
+/*embed,
+iframe,
+object {
+    max-width: 100%;
+}*/
+
+/* Make sure logo link wraps around logo image. */
+/*.custom-logo-link {
+    display: inline-block;
+}*/
+
+/* ## Captions
+------------------------------------------------- */
+
+/*.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+    text-align: center;
+}*/
+
+/* ## Galleries
+------------------------------------------------- */
+
+/*.gallery {
+    margin-bottom: 1.5em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-caption {
+    display: block;
+}*/
+
+/*** Header ***/
+
+.site-header {
+    background-color: #006698;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.header-block {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.site-title {
+    font-family: 'arcaMajora3Heavy', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    font-size: 180px;
+    font-size: 10em;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.site-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-description {
+    color: #fff;
+    display: none;
+}
+
+/** Main Navigation **/
+
+.main-navigation {
+    text-align: right;
+    padding-right: 1px;
+    min-width: 100%;
+}
+
+.main-navigation .menu-toggle {
+    display: none;
+}
+
+.main-navigation .navbar-nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.main-navigation .navbar-nav-menu li {
+    display: inline;
+    position: relative;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 1.111em;
+    font-weight: 500;
+}
+
+.navbar-nav-menu li:hover a {
+    color: #c4c4c4;
+}
+
+/* Top Bar Dropdown Menu */
+
+.navbar-nav-menu .sub-menu,
+.navbar-nav-menu .children {
+    position: absolute;
+    left: -50px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    top: 100%;
+    z-index: 99999;
+}
+
+.navbar-nav-menu .sub-menu li,
+.navbar-nav-menu .children li {
+    padding: 10px 15px;
+}
+
+.navbar-nav-menu .sub-menu a,
+.navbar-nav-menu .children a {
+    padding: 0;
+    line-height: 1.4;
+    font-size: 20px;
+    font-size: 1.111em;
+    color: #fff !important;
+}
+
+.navbar-nav-menu li:hover .sub-menu,
+.navbar-nav-menu li:hover .children {
+    display: inline-block;
+}
+
+.navbar-nav-menu .sub-menu li:hover,
+.navbar-nav-menu .children li:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Top Nav */
+
+.top-nav {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    display: inline-block;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.top-nav i {
+    color: #006698;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 1.0);
+    padding: 12px;
+    border-radius: 50px;
+    margin-left: 10px;
+    -webkit-animation: headShake 1.6s infinite;
+    animation: headShake 1.6s infinite;
+}
+
+.top-nav a:hover i,
+.top-nav a:active i{ 
+    -webkit-animation: none;
+    animation: none;   
+}
+
+@keyframes headShake {
+  0% {
+    transform: translateX(0);
+  }
+
+  6.5% {
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+
+  18.5% {
+    transform: translateX(5px) rotateY(7deg);
+  }
+
+  31.5% {
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+
+  43.5% {
+    transform: translateX(2px) rotateY(3deg);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+}
+
+/* Header Page Title */
+
+.header-page-title {
+    position: absolute;
+    top: -88px;
+    left: 0;
+}
+
+.header-page-title h2{
+    color: #006698;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+    line-height: 0.8;
+    padding: 20px 25px;
+    background-color: #fff;
+}
+
+.header-page-title span {
+    background-color: #006698;
+    padding-right: 15px;
+}
+
+/*** Site Content ***/
+
+.site-content {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.site-page {
+    padding: 112px 0;
+}
+
+
+/** Services **/
+
+/* Steps */
+
+.steps {
+    padding: 114px 0;
+}
+
+.steps-header h3 {
+    font-size: 60px;
+}
+
+.steps-header p {
+    font-size: 14px;
+}
+
+.steps-box a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.steps-box p:first-child {
+    font-weight: 600;
+}
+
+.steps-box p:last-child {
+    color: #6c757d;
+}
+
+.steps-box:hover {
+    background-color: #006698;
+    color: #fff !important;
+}
+
+.steps-box:hover p {
+    color: #fff;
+}
+
+.steps-card-header {
+    font-size: 34px;
+}
+
+/* Services Categories */
+
+.services {
+    background-color: #f9f9f9;
+    padding: 114px 0;
+
+}
+
+.services-wrapper {
+    padding: 40px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.services .pill {
+
+}
+
+.services-menus {
+
+}
+
+.services-menus li button {
+    color: #000;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: 0 !important;
+}
+
+.services-menus li button i {
+    display: none;
+}
+
+.services-menus li button:hover,
+.services-menus li button.active {
+    color: #fff;
+    background-color: #006698 !important;
+    box-shadow: none !important;
+}
+
+.services-sub-menus {
+
+}
+
+.services-sub-menus li button {
+    color: #c9c9c9;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0 !important;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.services-sub-menus li button:hover,
+.services-sub-menus li button.active {
+    color: #006698 !important;
+}
+
+.service-block {
+    padding: 20px 0;
+}
+
+.service-title {
+    margin: 25px 0 30px;
+}
+
+.service-title h4 {
+    font-size: 32px;
+}
+
+.service-details {
+
+}
+
+.service-details p {
+    color: #000;
+    font-weight: 600;
+}
+
+.service-details p span {
+    margin: 0 5px;
+    color: #ccc;
+}
+
+.service-features li {
+    margin-bottom: 5px;
+}
+
+.service-icon {
+    font-size: 180px;
+    color: #ccc;
+    margin-top: 80px;
+}
+
+.service-order-button {
+    margin-top: 15px;
+}
+
+.service-order-button button {
+    border-radius: 0;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    transition: box-shadow 0.3s linear;
+    color: #212529;
+}
+
+.service-order-button button:hover {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.service-order-button button:active,
+.service-order-button button:visited {
+    background-color: #006698;
+    color: #fff;
+}
+
+.service-order-button button i {
+    margin-right: 10px;
+}
+
+
+/* Testimonial Services  */
+
+.testimonial-services {
+    padding: 100px 0 114px;
+
+}
+
+.testimonial-services .carousel-indicators {
+    margin-bottom: -4rem;
+}
+
+.testimonial-services .carousel-indicators [data-bs-target] {
+    background-color: #aeaeae;
+}
+
+.testimonial-services-icon i {
+    color: #006698;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.testimonial-services-quote {
+
+} 
+
+.testimonial-services-quote p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.testimonial-services-quote cite {
+    font-style: normal;
+}
+
+.testimonial-services-quote cite span:first-child {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.testimonial-services-quote cite a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* FAQs Services */
+
+.faqs-services {
+    background-color: #f9f9f9;
+    padding: 114px 0;
+}
+
+.faqs-services-title {
+    font-size: 60px;
+    text-align: left;
+}
+
+.faqs-services-description {
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.faqs-services .accordion {
+    padding: 40px 40px 25px;
+    background-color: #fff;
+}
+
+.faqs-services .accordion a {
+    color: #006698;
+    text-decoration: none;
+}
+
+.faqs-services .accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.faqs-services .accordion .accordion-item:first-child .accordion-button {
+    padding-top: 0;
+}
+
+.faqs-services .accordion-button {
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0;
+    border: none;
+    box-shadow: none;
+}
+
+.faqs-services .accordion-button::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f107";
+    background-image: none;
+    width: initial;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #006698;
+}
+
+.faqs-services .accordion-body {
+    padding: 0;
+}
+
+/* Services Guarantee */
+
+.services-guarantee {
+    background-color: #006698;
+    color: #fff;
+    padding: 114px 0;
+}
+
+.safe-secure,
+.premium-support,
+.data-security {
+    display: flex;
+}
+
+.safe-secure {
+    justify-content: flex-start;
+}
+
+.premium-support {
+    justify-content: center;
+}
+
+.data-security {
+    justify-content: flex-end;
+}
+
+.services-guarantee i {
+    line-height: 1.3;
+}
+
+.services-guarantee span {
+    display: inline-flex;
+}
+
+.services-guarantee p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.4;
+    margin-left: 15px;
+}
+
+.services-guarantee a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.services-guarantee a:hover {
+    cursor: pointer;
+}
+
+
+/** About **/
+
+.profile {
+    padding: 114px 0;
+}
+
+.profile-description {
+    margin-top: 30px;
+}
+
+.profile-description-wrapper {
+    padding: 30px;
+    padding-top: 0;
+}
+
+.profile-description h3 {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.profile-description p {
+    margin-bottom: 30px;
+}
+
+.profile-urls .btn {
+    border-radius: 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    transition: box-shadow 0.3s linear;
+}
+
+.profile-urls .btn:hover {
+    color: #006698;
+    box-shadow: none;
+}
+
+.profile-social {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.smjuber-cv i {
+    margin-right: 10px;
+}
+
+
+/* Content Shadow  */
+
+.hidden-footer-shadow {
+    -moz-box-shadow: 0 20px 30px -20px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 20px 30px -20px rgba(0,0,0,0.8);
+    box-shadow: 0 20px 30px -20px rgba(0,0,0,0.8);
+}
+
+
+/** Documentation **/
+
+.documentations-list {
+    padding: 112px 0;
+}
+
+
+.documentations-item {
+    display: block;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.documentations-item:hover,
+.documentations-item:hover h3,
+.documentations-item:hover .documentations-tags span {
+    color: #fff;
+    background-color: #006698;
+}
+
+.documentations-item h3 {
+    font-size: 28px;
+    font-size: 1.556em;
+    font-weight: 600;
+    color: #313131;
+    padding: 25px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.documentations-item .documentation-version {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.documentations-item .documentations-tags {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.documentations-item .documentations-tags span {
+    color: #777;
+}
+
+.documentations-item .documentations-tags span:after {
+    background-color: #fff;
+}
+
+.documentations-item .documentations-tags span:last-child:after {
+    display: none;
+}
+
+/* Documentatio Single */
+
+.smjuber-documentation {
+
+}
+
+.smjuber-documentation {
+    width: 100%;
+    height: 100%;
+    color: #4b4b4b;
+    background-color: #fff !important;
+    position: relative;
+}
+
+.smjuber-documentation main {
+    position: relative;
+}
+
+.smjuber-documentation h1,
+.smjuber-documentation h2,
+.smjuber-documentation h3,
+.smjuber-documentation h4,
+.smjuber-documentation h5,
+.smjuber-documentation h6 {
+    margin: 20px 0 10px;
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.smjuber-documentation p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.smjuber-documentation pre {
+    margin: 20px 0;
+    height: 500px;
+}
+
+.smjuber-documentation hr {
+    border-top: 1px solid #232323;
+}
+
+.smjuber-documentation a {
+    color: #696969;
+    font-size: 18px;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.smjuber-documentation a:focus,
+.smjuber-documentation a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.documentation-nav a {
+    position: relative;
+}
+
+.documentation-nav a:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.documentation-nav a:hover:after {
+  visibility: visible;
+  width: 100%;
+}
+
+ ::-moz-selection {
+    background-color: #b7b7b7;
+    color: #000;
+}
+
+::selection {
+    background-color: #b7b7b7;
+    color: #000;
+}
+
+.smjuber-documentation img::selection {
+    background-color: #b7b7b7;
+}
+
+.smjuber-documentation img::-moz-selection {
+    background-color: #b7b7b7;
+}
+
+.smjuber-documentation img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.documentation-header {
+    background: #004b80;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: #fff;
+    padding: 70px 0 90px;
+    margin-bottom: 80px;
+}
+
+.documentation-header h1 {
+    font-size: 99px;
+    font-size: 5.5em;
+}
+
+.documentation-version {
+    font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+    font-size: 65%;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.documentations-tags span {
+    color: #bdbdc0;
+}
+
+.documentations-tags span:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.documentations-tags span:last-child:after {
+    display: none;
+}
+
+.documentation-nav {
+    background-color: #004b80;
+    display: inline-block;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    min-width: 300px;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    text-align: left;
+    -webkit-box-shadow: 0 13px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -ms-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -o-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 1000;
+}
+
+.documentation-nav li a {
+    display: flex;
+}
+
+.documentation-nav a.nav-link {
+    font-size: 18px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 0;
+    display: inline-flex;
+}
+
+.documentation-nav > li > ul {
+    border-left: 2px solid #fff;
+    margin-top: 15px;
+}
+
+.documentation-nav > li > a.nav-link,
+.documentation-nav > li > ul a.nav-link {
+    padding: 0;
+}
+
+.documentation-nav a.active {
+    background: transparent;
+    color: inherit;
+}
+
+.documentation-nav a.active {
+    position: relative;
+}
+
+.documentation-nav a.active:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    visibility: visible;
+}
+
+.documentation-nav a:hover,
+.documentation-nav a:focus,
+.documentation-nav a:active {
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+    background-color: inherit;
+}
+
+.documentation-nav > li {
+    padding: 10px 40px; 
+    list-style: none;
+}
+
+.documentation-nav > li > ul > li {
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.documentation-nav > li > ul > li:first-child {
+    padding-top: 15px;
+}
+
+.nav-item .nav {
+    display: none;
+}
+
+.nav-item > .active + .nav {
+    display: flex;
+}
+
+.smjuber-documentation h3.section-title {
+    font-size: 54px;
+    font-size: 3em;
+    color: #aeaeae;
+    letter-spacing: 2px;
+}
+
+.smjuber-documentation h4.section-subtitle {
+    font-size: 36px;
+    font-size: 2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    letter-spacing: 2px;
+}
+
+.return-link,
+.return-link a {
+    display: none;
+    font-size: 16px;
+    font-size: 0.85em !important;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    color: #004b80 !important;
+}
+
+.section-block {
+    margin: 100px 0 150px; 
+}
+
+.documentation-footer {
+    padding: 20px 0 40px;
+    display: block;
+}
+
+.copyright {
+    color: #313131;
+    text-align: center;
+}
+
+.copyright-info {
+    text-align: left;
+    font-size: 16px;
+    font-size: 0.889em;
+}
+
+.copyright-info > span:first-child {
+    font-size: 18px;
+    font-size: 1em;
+}
+
+.copyright-info a {
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 18px;
+    font-size: 0.99em;
+    line-height: 1.2;
+    color: #313131;
+}
+
+.copyright-info a:before {
+    content: ".";
+    font-size: 18px;
+    font-size: 0.99em;
+    color: #222;
+    display: inline-block;
+    margin: 0 8px 0 6px;
+}
+
+
+/** 404 **/
+
+.not-found {
+    padding: 175px 0;
+}
+
+.error-title h2{
+    font-size: 230px;
+    font-size: 12.778em;
+    font-weight: 700;
+    color: #006698;
+}
+
+.error-content a {
+    font-weight: 600;
+    color: #006698;
+    text-decoration: none;
+    text-align: center;
+}
+
+.error-content a:hover {
+    opacity: 0.5;
+}
+
+
+/*** Footer ***/
+
+.site-footer {
+    /*border-top: 1px solid #d7d7d7;*/
+    position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.site-footer a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+/** Site Copyright **/
+
+.site-copyright {
+    color: #a3a3a3;
+    font-size: 14px;
+    font-size: 0.778em;
+    line-height: 2;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+/** Site Footer Social **/
+
+.site-footer-social {
+    text-align: center;
+    border-right: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+}
+
+.footer-social-menu {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-social-menu li a {
+    color: #a3a3a3;
+    padding-right: 20px;
+}
+
+.footer-social-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social-menu ul li {
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+.footer-social-menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.footer-social-menu ul li span {
+    display: none;
+}
+
+.footer-social-menu li a:before {
+    line-height: 2;
+    font-size: 14px;
+    font-size: 0.778em;
+    font-weight: 400;
+    font-family: 'Font Awesome 5 Brands';
+    letter-spacing: normal;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-social-menu li a[href^="mailto:"]:before {
+     font-size: 14px;
+    font-size: 0.778em;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.footer-social-menu ul li:last-child a:before {
+    padding-right: 0;
+}
+
+.footer-social-menu li a[href*="500px.com"]:before {
+    content: "\f26e";
+}
+
+.footer-social-menu li a[href*="behance.net"]:before {
+    content: "\f1b4";
+}
+
+.footer-social-menu li a[href*="bloglovin.com"]:before {
+    content: "\f004";
+}
+
+.footer-social-menu li a[href*="codepen.io"]:before {
+    content: "\f1cb";
+}
+
+.footer-social-menu li a[href*="dribbble.com"]:before {
+    content: "\f17d";
+}
+
+.footer-social-menu li a[href*="facebook.com"]:before {
+    content: "\f39e";
+}
+
+.footer-social-menu li a[href*="flickr.com"]:before {
+    content: "\f16e";
+}
+
+.footer-social-menu li a[href*="github.com"]:before {
+    content: "\f09b";
+}
+
+.footer-social-menu li a[href*="instagram.com"]:before {
+    content: "\f16d";
+}
+
+.footer-social-menu li a[href*="linkedin.com"]:before {
+    content: "\f0e1";
+}
+
+.footer-social-menu li a[href*="medium.com"]:before {
+    content: "\f23a";
+}
+
+.footer-social-menu li a[href*="meetup.com"]:before {
+    content: "\f2e0";
+}
+
+.footer-social-menu li a[href*="mixcloud.com"]:before {
+    content: "\f289";
+}
+
+.footer-social-menu li a[href*="pinterest.com"]:before {
+    content: "\f231";
+}
+
+.footer-social-menu li a[href*="quora.com"]:before {
+    content: "\f2c4";
+}
+
+.footer-social-menu li a[href*="reddit.com"]:before {
+    content: "\f281";
+}
+
+.footer-social-menu li a[href*="soundcloud.com"]:before {
+    content: "\f1be";
+}
+
+.footer-social-menu li a[href*="stackoverflow.com"]:before {
+    content: "\f16c";
+}
+
+.footer-social-menu li a[href*="tumblr.com"]:before {
+    content: "\f173";
+}
+
+.footer-social-menu li a[href*="twitter.com"]:before {
+    content: "\f099";
+}
+
+.footer-social-menu li a[href*="vimeo.com"]:before {
+    content: "\f27d";
+}
+
+.footer-social-menu li a[href*="vk.com"]:before {
+    content: "\f189";
+}
+
+.footer-social-menu li a[href*="profiles.wordpress.org"]:before {
+    content: "\f19a";
+}
+
+.footer-social-menu li a[href*="youtube.com"]:before {
+    content: "\f167";
+}
+
+.footer-social-menu li a[href^="mailto:"]:before {
+    content: "\f1fa";
+}
+
+/*.footer-social-menu li a[href^="mailto:"]:before {
+    content: "\f0e0";
+}*/
+
+.footer-social-menu li a[href$="/feed/"]:before {
+    content: "\f09e";
+}
+
+/* Subscribe Button  */
+
+.newsletter-button {
+    display: inline-block;
+}
+
+.newsletter-button span {
+    margin-left: 20px;
+}
+
+.newsletter-button span:hover {
+    cursor: pointer;
+}
+
+.newsletter-button i {
+    color: #a3a3a3;
+    line-height: 2;
+    font-size: 15px;
+    font-size: 0.778em;
+    letter-spacing: normal;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: rotate(45deg);
+    transition: all 0.3s linear;
+}
+
+.newsletter-button span:hover i {
+    transform: rotate(0);
+    color: #006698;
+    transition: all 0.3s linear;
+}
+
+/* Modal  */
+
+.modal-backdrop.show {
+   opacity: 0.9;
+}
+
+#smjuberNewsletter .modal-content {
+    border-radius: 0;
+}
+
+#smjuberNewsletter .modal-body {
+    padding: 50px;
+    text-align: center;
+}
+
+#smjuberNewsletter .modal-body span {
+    display: block;
+    text-align: center;
+    margin: 15px;
+}
+
+#smjuberNewsletter .modal-body span i {
+    font-size: 50px;
+    color: #006698;
+    -webkit-animation: headShake 1.6s infinite;
+    animation: headShake 1.6s infinite;
+}
+
+#smjuberNewsletter .modal-body:hover i {
+    color: #ccc;
+    -webkit-animation: none;
+    animation: none;
+}
+
+#smjuberNewsletter .modal-body h5 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#smjuberNewsletter .modal-body p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#smjuberNewsletter .modal-body .widget_block {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#smjuberNewsletter .modal-body .widget_block p:first-child {
+    display: none;
+}
+
+#smjuberNewsletter .modal-body form {
+    position: relative;
+    margin-top: 20px;
+}
+
+#smjuberNewsletter .modal-body form p:first-child {
+    margin-bottom: 0 !important;
+    position: relative !important;
+}
+
+#smjuberNewsletter .modal-body span.ajax-loader {
+    position: absolute;
+    top: 55%;
+}
+
+#smjuberNewsletter .modal-body input {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0;
+    border-color: transparent;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+#smjuberNewsletter .modal-body input:focus {
+    border-color: #ccc;
+}
+
+#smjuberNewsletter .modal-body input[type="submit"],
+#smjuberNewsletter .modal-body button[type="submit"] {
+    padding: 15px 30px;
+    font-size: 14px;
+    color: #000;
+    margin: 15px;
+    border-radius: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+#smjuberNewsletter .modal-body input[type="submit"]:hover,
+#smjuberNewsletter .modal-body button[type="submit"]:hover {
+    background-color: #006698;
+    color: #fff;
+}
+
+/* WPCF7 */
+
+.wpcf7 form .wpcf7-response-output {
+    padding: 10px;
+    margin: 2em 0 1em;
+    font-size: 14px;
+    color: #fff;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450;
+    background: #46b450;
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #f56e28;
+    background: #f56e28;
+}
+
+
+/** Site Credit **/
+
+.location {
+    color: #a3a3a3;
+    font-size: 14px;
+    font-size: 0.778em;
+    line-height: 2;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.location i {
+    margin-right: 10px;
+    font-size: 16px;
+    /*font-size: 0.778em;*/
+}
+
+.site-footer a:hover,
+.footer-social-menu li a:hover,
+.footer-social-menu li a:hover:before {
+    color: #006698 !important;
+}
+
+
+/* # Media Queries
+------------------------------------------------- */
+
+/* ## Extra Small Devices ( portrait phones, less than 576px or 34em )
+------------------------------------------------- */
+
+@media only screen and ( max-width: 35.9em ) {
+
+    body {
+        font-size: 16px;
+    }
+
+    /*** Header ***/
+
+    .site-title {
+        font-size: 52px;
+        font-size: 3.25em;
+    }
+
+    /** Main Navigation **/
+
+    .main-navigation {
+        /*text-align: center;*/
+    }
+
+    .main-navigation .navbar-nav-menu li {
+        margin-right: 10px;
+    }
+
+    .main-navigation .navbar-nav-menu li:last-child {
+        margin-right: 0;
+    }
+
+    .navbar-nav-menu li a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .navbar-nav-menu .sub-menu a, 
+    .navbar-nav-menu .children a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    /* Top Nav */
+
+    .top-nav {
+        top: -16px;
+        right: -14px;
+    }
+
+    .top-nav a {
+        font-size: 16px;
+        margin-right: 6px;
+    }
+
+    .top-nav i {
+        font-size: 13px;
+        padding: 7px;
+        margin-left: 8px;
+    }
+
+    /* Header Page Title */
+
+    .header-page-title {
+        top: -39px;
+    }
+
+    .header-page-title h2 {
+        font-size: 24px;
+        padding: 10px 15px;
+    }
+
+    /*** Site Content ***/
+
+    .site-content {
+        /*padding: 40px 0;*/
+    }
+
+    /** Service **/
+
+    /* Steps */
+
+    .steps {
+        padding: 95px 0;
+    }
+
+    .steps-header h3 {
+        font-size: 42px;
+    }
+
+    .steps-header p {
+        margin-bottom: 40px;
+    }
+
+    /* Service Categories */
+
+    .service {
+        padding: 95px 0;
+    }
+
+    .services-wrapper {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .services-menus li button {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .services-menus li button i {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .service-title h4 {
+        font-size: 26px;
+    }
+
+    .service-icon,
+    .service-icon i {
+        display: none !important;
+    }
+
+    /* Testimonial Services  */
+
+    .testimonial-services {
+        padding: 95px 0;
+    }
+
+    /* FAQs Services */
+
+    .faqs-services {
+        padding: 95px 0;
+    }
+
+    .faqs-services-title {
+        font-size: 42px;
+    }
+
+    .faqs-services-description {
+        margin-bottom: 40px;
+    }
+
+    .faqs-services .accordion {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    /* Order Form */
+
+    .order-form {
+        margin-top: 50px;
+        padding: 45px 0 90px;
+    }
+
+    .order-form .form-check-label {
+        font-size: 14px;
+    }
+
+    /* Services Guarantee */
+
+    .services-guarantee {
+        padding: 95px 0;
+    }
+
+    .services-guarantee .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .safe-secure,
+    .premium-support,
+    .data-security {
+        justify-content: center;
+    }
+
+    .safe-secure,
+    .premium-support {
+        margin-bottom: 25px;
+    }
+
+    .premium-support span {
+        margin-left: -10px;
+    }
+
+
+    /** About **/
+
+    .profile {
+        padding: 50px 0;
+    }
+
+    .profile-description {
+        margin-top: 25px;
+    }
+
+    .profile-description-wrapper {
+        padding: 0;
+    }
+
+    .profile-description h3 {
+        font-size: 40px;
+    }
+
+
+    /** Documentation **/
+
+    .documentations-list {
+        padding: 55px 0;
+    }
+
+    .documentations-item {
+        margin-bottom: 15px;
+    }
+
+    .documentations-list .row .documentations-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .documentations-list .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .documentations-item .documentations-tags span {
+        display: block;
+        text-align: center;
+    }
+
+    .documentations-item .documentations-tags span:after {
+        display: none;
+    }
+
+    /* Documentation Single */
+
+    .smjuber-documentation p {
+        font-size: 16px;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .smjuber-documentation a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .first-section {
+        padding: 40px 0 60px;
+    }
+
+    .first-section h1 {
+        font-size: 48px;
+        font-size: 3em;
+    }
+
+    .entry-header-tags span {
+        font-size: 14px;
+        font-size: 0.875em;
+    }
+
+    .entry-header-tags span:after {
+        width: 3px;
+        height: 3px;
+        margin: auto 0.7rem;
+    }
+
+    .documentation-nav a.nav-link {
+        font-size: 14px;
+        font-size: 0.875em;
+    }
+
+    .documentation-nav {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        padding: 40px 0;
+        margin-bottom: 40px;
+    }
+
+    .nav-item .nav {
+        display: flex;
+    }
+
+    .smjuber-documentation h3.section-title {
+        font-size: 28px;
+        font-size: 1.75rem;
+        margin-top: 10px;
+    }
+
+    .smjuber-documentation h4.section-subtitle {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .return-link,
+    .return-link a {
+        display: inline-block;
+    }
+
+    .copyright-info {
+        font-size: 14px;
+        font-size: 0.9em;
+    }
+
+    .copyright-info a {
+        font-size: 16px;
+        font-size: 0.97em;
+        line-height: 1.8;
+    }
+
+    /** 404 **/
+    .error-title h2{
+        font-size: 70px;
+        font-size: 4.375em;
+    }
+
+    /*** Footer ***/
+
+    .site-footer {
+        padding: 20px 0;
+    }
+
+    /** Site Copyright **/
+
+    .site-copyright {
+        order: 1;
+        text-align: center;
+        padding: 0;
+    }
+
+    /** Site Footer Social **/
+
+    .site-footer-social {
+        text-align: center;
+        border: none;
+    }
+
+    .footer-social-menu {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* Subscribe Button  */
+    
+    #smjuberNewsletter .modal-body {
+        padding: 30px;
+    }
+
+    #smjuberNewsletter .modal-body span i {
+        font-size: 40px;   
+    }
+
+    #smjuberNewsletter .modal-body h5 {
+        font-size: 28px;
+    }
+
+
+
+    /** Site Credit **/
+
+    .location {
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+
+/* ## Small Devices ( landscape phones, 576px or 34em and up )
+------------------------------------------------- */
+
+@media ( min-width: 36em ) and ( max-width: 47.9em ) {
+
+    body {
+        font-size: 16px;
+    }
+
+
+    /*** Header ***/
+
+    .site-title {
+        font-size: 100px;
+        font-size: 6.25em;
+    }
+
+    /* Top Nav */
+
+    .top-nav {
+        top: -14px;
+        right: -14px;
+    }
+
+    .top-nav a {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .top-nav i {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Header Page Title */
+
+    .header-page-title {
+        top: -48px;
+    }
+
+    .header-page-title h2 {
+        font-size: 30px;
+        padding: 12px 18px;
+    }
+
+    /*** Site Content ***/
+
+    .site-content {
+        /*padding: 60px 0;*/
+    }
+
+    /** Service **/
+
+    /* Steps */
+
+    .steps {
+        padding: 95px 0;
+    }
+
+    .steps-header h3 {
+        font-size: 42px;
+    }
+
+    .steps-header p {
+        margin-bottom: 40px;
+    }
+
+    /* Service Categories */
+
+    .service {
+        padding: 95px 0;
+    }
+
+    .services-wrapper {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .services-menus li button {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .services-menus li button i {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .service-title h4 {
+        font-size: 28px;
+    }
+
+    .service-icon,
+    .service-icon i {
+        display: none !important;
+    }
+
+    /* Testimonial Services  */
+
+    .testimonial-services {
+        padding: 95px 0;
+    }
+
+    /* FAQs Services */
+
+    .faqs-services {
+        padding: 95px 0;
+    }
+
+    .faqs-services-title {
+        font-size: 42px;
+    }
+
+    .faqs-services-description {
+        margin-bottom: 40px;
+    }
+
+    /* Order Form */
+
+    .order-form {
+        margin-top: 50px;
+        padding: 45px 0 90px;
+    }
+
+    /* Services Guarantee */
+
+    .services-guarantee .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .safe-secure,
+    .premium-support,
+    .data-security {
+        justify-content: center;
+    }
+
+    .safe-secure,
+    .premium-support {
+        margin-bottom: 25px;
+    }
+
+    .premium-support span {
+        margin-left: -10px;
+    }
+
+
+    /** About **/
+
+    .profile {
+        padding: 60px 0;
+    }
+
+    .profile-description {
+        margin-top: 30px;
+    }
+
+    .profile-description-wrapper {
+        padding: 0;
+    }
+
+    .profile-description h3 {
+        font-size: 42px;
+    }
+
+
+    /** Documentation **/
+
+    .documentations-list {
+        padding: 85px 0;
+    }
+
+    .documentations-item {
+        margin-bottom: 25px;
+    }
+
+    .documentations-list .row .documentations-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .documentations-list .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Documentation Single */
+
+    .smjuber-documentation p {
+        font-size: 16px;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .smjuber-documentation a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .first-section {
+        padding: 60px 0 80px;
+    }
+
+    .first-section h1 {
+        font-size: 56px;
+        font-size: 3.5em;
+    }
+
+    .entry-header-tags span {
+        font-size: 14px;
+        font-size: 0.875em;
+    }
+
+    .entry-header-tags span:after {
+        width: 4px;
+        height: 4px;
+        margin: auto 0.9rem;
+    }
+
+    .documentation-nav a.nav-link {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .documentation-nav {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        padding: 50px 0;
+        margin-bottom: 40px;
+    }
+
+    .nav-item .nav {
+        display: flex;
+    }
+
+    .smjuber-documentation h3.section-title {
+        font-size: 28px;
+        font-size: 1.75rem;
+        margin-top: 10px;
+    }
+
+    .smjuber-documentation h4.section-subtitle {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .return-link,
+    .return-link a {
+        display: inline-block;
+    }
+
+    .copyright-info {
+        font-size: 14px;
+        font-size: 0.9em;
+    }
+
+    .copyright-info a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    /*** Footer ***/
+
+    .site-footer {
+        padding: 20px 0;
+    }
+
+    /** Site Copyright **/
+
+    .site-copyright {
+        order: 1;
+        text-align: center;
+        padding: 0;
+    }
+
+    /** Site Footer Social **/
+
+    .site-footer-social {
+        text-align: center;
+        border: none;
+    }
+
+    .footer-social-menu {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /** Site Credit **/
+
+    .location {
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+
+/* ## Medium Devices ( tablets, 768px or 48em and up )
+------------------------------------------------- */
+
+@media ( min-width: 48em ) and ( max-width: 61.9em ) {
+
+    body {
+        font-size: 16px;
+    }
+
+
+    /*** Header ***/
+
+    .site-title {
+        font-size: 130px;
+        font-size: 8.125em;
+    }
+
+    /* Top Nav */
+
+    .top-nav {
+        top: -13px;
+        right: -14px;
+    }
+
+    .top-nav a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .top-nav i {
+        font-size: 20px;
+        padding: 12px;
+    }
+
+    /* Header Page Title */
+
+    .header-page-title {
+        top: -60px;
+    }
+
+    .header-page-title h2 {
+        font-size: 38px;
+        padding: 15px 20px;
+    }
+
+    /*** Site Content ***/
+
+    .site-content {
+        /*padding: 60px 0;*/
+    }
+
+    /** Service **/
+
+    /* Steps */
+
+    .steps {
+        padding: 95px 0;
+    }
+
+    .steps-header h3 {
+        font-size: 52px;
+    }
+
+    .steps-header p {
+        margin-bottom: 40px;
+    }
+
+    /* Service Categories */
+
+    .services {
+        padding: 95px 0;
+    }
+
+    .services-wrapper {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .services-menus li button {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .services-menus li button i {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .service-title h4 {
+        font-size: 28px;
+    }
+
+    .service-icon,
+    .service-icon i {
+        display: none !important;
+    }
+
+    /* Testimonial Services  */
+
+    .testimonial-services {
+        padding: 95px 0;
+    }
+
+    /* FAQs Services */
+
+    .faqs-services {
+        padding: 95px 0;
+    }
+
+    .faqs-services-title {
+        font-size: 52px;
+    }
+
+    .faqs-services-description {
+        margin-bottom: 40px;
+    }
+
+    /** About **/
+
+    .profile {
+        padding: 150px 0;
+    }
+
+    .profile-description {
+        margin-top: 25px;
+    }
+
+    .profile-description-wrapper {
+        padding: 0;
+    }
+
+    .profile-description h3 {
+        font-size: 52px;
+    }
+
+
+    /** Documentation **/
+
+    .documentations-item .documentations-tags span {
+        display: block;
+        text-align: center;
+    }
+
+    .documentations-item .documentations-tags span:after {
+        display: none;
+    }
+
+    /* Documentation Single */
+
+    .smjuber-documentation p {
+        font-size: 16px;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .smjuber-documentation a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .first-section {
+        padding: 60px 0 80px;
+    }
+
+    .first-section h1 {
+        font-size: 64px;
+        font-size: 4em;
+    }
+
+    .second-section {
+        margin: 60px 0 40px;
+    }
+
+    .entry-header-tags span {
+        font-size: 14px;
+        font-size: 0.875em;
+    }
+
+    .entry-header-tags span:after {
+        width: 4px;
+        height: 4px;
+        margin: auto 0.9rem;
+    }
+
+    .documentation-nav a.nav-link {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .documentation-nav {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        padding: 50px 0;
+        margin-bottom: 40px;
+    }
+
+    .nav-item .nav {
+        display: flex;
+    }
+
+    .smjuber-documentation h3.section-title {
+        font-size: 28px;
+       font-size: 1.75rem;
+        margin-top: 10px;
+
+    }
+
+    .smjuber-documentation h4.section-subtitle {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .return-link,
+    .return-link a {
+        display: inline-block;
+    }
+
+    .copyright-info {
+        font-size: 14px;
+        font-size: 0.9em;
+    }
+
+    .copyright-info a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    /*** Footer ***/
+
+    .site-footer {
+        padding: 20px 0;
+    }
+
+    /** Site Copyright **/
+
+    .site-copyright {
+        order: 1;
+        text-align: center;
+        padding: 0;
+    }
+
+    /** Site Footer Social **/
+
+    .site-footer-social {
+        text-align: center;
+        border: none;
+    }
+
+    .footer-social-menu {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /** Site Credit **/
+
+    .location {
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+
+/* ## Large Devices ( desktops, 992px or 62em and up )
+------------------------------------------------- */
+
+@media ( min-width: 62em ) and ( max-width: 74.9em ) {
+
+    body {
+        font-size: 16px;
+    }
+
+
+    /*** Header ***/
+
+    .site-title {
+        font-size: 160px;
+        font-size: 11.25em
+    }
+
+    /* Header Page Title */
+
+    .header-page-title {
+        top: -74px;
+    }
+
+    .header-page-title h2 {
+        font-size: 48px;
+        padding: 18px 22px;
+    }
+
+    /*** Site Content ***/
+
+    /** Service **/
+
+    /* Steps */
+
+    .steps-header h3 {
+        font-size: 52px;
+    }
+
+    .steps-header p {
+        margin-bottom: 40px;
+    }
+
+    /* Service Categories  */
+
+    .service-title h4 {
+        font-size: 28px;
+    }
+
+    /* FAQs Services */
+
+    .faqs-services-title {
+        font-size: 52px;
+    }
+
+    /** About **/
+
+    .profile {
+        padding: 115px 0;
+    }
+
+    .profile-description {
+        margin-top: 25px;
+    }
+
+    .profile-description-wrapper {
+        padding: 0;
+    }
+
+    .profile-description h3 {
+        font-size: 52px;
+    }
+
+    /** Documentation **/
+
+    .documentations-item .documentations-tags span {
+        display: block;
+        text-align: center;
+    }
+
+    .documentations-item .documentations-tags span:after {
+        display: none;
+    }
+
+    /* Documentation Single */
+
+    .smjuber-documentation p {
+        font-size: 16px;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .smjuber-documentation a {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .first-section {
+        padding: 60px 0 80px;
+    }
+
+    .first-section h1 {
+        font-size: 60px;
+        font-size: 3.75em;
+    }
+
+    .entry-header-tags span {
+        font-size: 14px;
+        font-size: 0.875em;
+    }
+
+    .entry-header-tags span:after {
+        width: 4px;
+        height: 4px;
+        margin: auto 0.9rem;
+    }
+
+    .documentation-nav a.nav-link {
+        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .smjuber-documentation h3.section-title {
+        font-size: 42px;
+        font-size: 2.65em;
+    }
+
+    .smjuber-documentation h4.section-subtitle {
+        font-size: 26px;
+        font-size: 1.65em;
+    }
+
+}
+
+
+/* ## Extra Large Devices ( large desktops, 1200px or 75em and up )
+------------------------------------------------- */
+
+@media ( min-width: 75em ) and ( max-width: 87.4em ) {
+    
+    /* Header Page Title */
+
+    .header-page-title {
+        top: -78px;
+    }
+
+    .header-page-title h2 {
+        font-size: 52px !important;
+        padding: 20px 26px;
+    }
+
+    /*** Site Content ***/
+
+    /** Service **/
+
+    /* Steps */
+
+    .steps-header h3 {
+        font-size: 52px;
+    }
+
+    /* Service Categories */
+
+    .service-title h4 {
+        font-size: 29px;
+    }
+
+    /** About **/
+
+    .profile {
+        padding: 130px 0;
+    }
+
+    .profile-description-wrapper {
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .profile-description {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .profile-description h3 {
+        font-size: 48px;
+        margin-bottom: 18px;
+    }
+
+    .profile-description p {
+        margin-bottom: 18px;
+    } 
+
+
+    /** Documentation **/
+
+    .documentations-item .documentations-tags span {
+        display: block;
+        text-align: center;
+    }
+
+    .documentations-item .documentations-tags span:after {
+        display: none;
+    }
+
+    /* Documentation Single */
+
+}
+
+
+/* ## Print Style
+------------------------------------------------- */
+
+@media print {
+
+
+}
+
