@@ -350,6 +350,7 @@ object {
 .site-title a {
     color: #fff;
     text-decoration: none;
+    display: block;
 }
 
 .site-description {
