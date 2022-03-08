@@ -1,0 +1,247 @@
+
+Service Limit - Weekly 175 / Monthly 260 - maximum
+
+Wphired [https://www.wphired.com/] | Workable[https://jobs.workable.com/] | https://jobs.wordpress.net/ | Stackoverflow [https://stackoverflow.com/jobs] | Linkedin [https://www.linkedin.com/jobs/]
+
+Need block - Shawon from Rahima
+
+
+*************************************
+						OFFICIAL SITE
+*************************************
+
+
+[Pending - 2nd Part - Dependency 1st Product Approval]
+Company Title - [Thoughtfully made]
+Customizer: 
+Button - Hire me with url
+Location - Map URL, tootip, text
+Service - Testimonial Urls with text, 
+About - Social URls & Text
+new service (consultation - 30 USD)
+Pages: Blog- Posts & Single, Theme - Themes & Single, Privacy Policy, Submit A Ticket
+Style: PX to EM or REM value
+.....................................................................................
+
+[Pending - 3rd Part- Dependency 2nd Product Approval]
+Customizer: Review
+Block: Gutenberg
+Pages: About, 404, Knowledgebase, 
+Style: Review
+....................................................................
+
+[Pending - 4th Part - Dependency 3rd Product Approval]
+Customizer: Review
+Block: Review
+Pages: Plugin - Plugins & Single, Review
+Style: Review
+....................................................................
+
+[Pending - Final Part - Dependency 4th Product Approval]
+Customizer: Review
+Block: Review
+Pages: Plugin - Plugins & Single, Review
+Style: Review
+....................................................................
+
+Statuses: 
+Under development - [UD]
+Over Modified Design - [OMD]
+Pause - [OFF]
+Themeforest - [TF]
+Done - [D]
+
+Upwork Clients Demo sites
+--------------------------------------
+UN: uwclients
+PW: uw$$456852clients
+uwclients@smjuber.com
+
+Design
+-------------------------------------
+
+Header [Universal]
+Footer [Universal]
+
+Features Icon-content box [OFF]
+Title + Paragraph [OFF]
+Testimonial [OFF]
+Counters [OFF]
+All Without Sidebar
+Video Documentation should Comment Turn off
+
+Theme Box - Featured 1 (Section) + Grid 3 Column  [TF][UD]
+Plugin Box [OFF]
+*Blog Box - 1 Column [UD]
+Doc Box - Grid 3 Column
+Contact - [TF, Footer, Live Chat]
+
+Privacy Policy #
+Terms Of Conditions #
+Support Policy #
+Licences #
+
+
+URLs -------------------------
+
+TF Follow:-
+https://themeforest.net/user/UXbarn/follow/
+
+Privacy Policy:-
+https://smjuber.com/privacy-policy/
+
+Terms Of Conditions:-
+https://smjuber.com/privacy-policy/
+
+Support Policy:-
+https://themeforest.net/page/item_support_policy
+
+Licences Policy:-
+https://themeforest.net/licenses/standard
+
+Support URL Structure:- Temporary
+https://themeforest.net/item/jason-personal-portfolio-html-template/19172304/support/contact
+
+Resources:-
+https://codepen.io/Mylene-V/pen/byRbJx
+https://codepen.io/VladimirVaize/pen/pojxGJm
+
+Menus ---------------------------------
+
+ Theme. [UD]
+ Plugin. [OFF]
+ Services [D]
+ Blog. [UD]
+ Support. [UD]
+	Documentation.
+	Knowledgebase.
+	Submit Ticket.
+ About. [UD]
+
+
+Task List
+-------------------------------------
+
+**  smjuber-doc - Scroolspy BS 5
+**  SMJUBER Doc - Setup and debug
+**  WP Super Cache - Setup
+**  Forum with BBpress - [OMD]
+**  Ticketing sytem with Envato API - [OMD]
+**  Custom CSS FrameWork - For Giant Theme [OMD]
+
+********** Detail Structure and Contents ******************
+
+Contact ---------------------- [Done]
+
+	Conatct Form - Live
+
+
+Themes -----------------------
+
+	Theme Page
+
+	Photo | Price | Category | Short Details | Tags | Name with title | Sales | Rattings| Buttons - Live Preview | Know More | Purchase
+
+
+	Theme Single
+
+	Photo | Price | Category | Short Details | Tags | Name with title | Sales | Rattings| Buttons - Live Preview | Know More | Purchase
+
+	Last Update | Created | Custom Widget | Compatible Browsers | Compatible Plugins | WP Versions | Column | RTL | Child Theme | Documentation | Files Type
+
+
+Plugins ----------------------- [OFF]
+
+	Theme Page
+
+	Photo | Price | Category | Short Details | Tags | Name with title | Sales | Rattings| Buttons - Live Preview | Know More | Purchase
+
+
+	Theme Single
+
+	Photo | Price | Category | Short Details | Tags | Name with title | Sales | Rattings| Buttons - Live Preview | Know More | Purchase
+
+	Last Update | Created | Custom Widget | Compatible Browsers | Compatible Plugins | WP Versions | Column | RTL | Child Theme | Documentation | Files Type
+
+
+Blog ----------------------- [UD]
+
+	Blog Page
+
+	Post Published Date-time | Post Update Date-time | Category | Read Time | Excerpt | Share
+
+
+	Blog Single
+
+	Post Published Date-time | Post Update Date-time | Category | Read Time | Share
+
+	Comments | Full Article | Tags | Author - name with Gravatar
+
+	Related Post (Published Date-time) | Pagination | Comment Box  | Author
+
+
+Doc ------------------------- [D]
+
+	Doc Page
+
+	Title | Theme Version | Release Date-time | Update Date-time
+
+
+	Doc Single
+
+	Title | Theme Version | Author | Release Date-time | Update Date-time | Content
+
+
+About ---------------------- [UD]
+
+	Short details with photo or video or galary & social information | Card - Work Processes (Plan - Design - Development - Test - Execute) | Team | Mission-Vission
+
+
+404 Page ------------------- [UD]
+
+	Photo | Title with paragraph | Search from | Button
+
+
+Services ------------------- [D]
+
+	Steps | Service Categories/Pricing | Testimonial | FAQs | Order Form | Service Guarantee
+
+Features Section -------------
+
+	Responsive design - Pixel perfect, Eye catching
+	Easy Customization 
+	Swift Support
+	Well Documentaion
+	Competitive features - User Friendly
+	Regular Updates
+
+
+Main Plugin Features ---------
+  
+	CPTnTax: *Theme, *Plugin, *Doc
+	Widgets: *Facebook, *Social Icon, *Ad
+	Shortcode: *Social Share
+	Blocks: *Social Share, *Social Icon, *Ad, Accordion, Tab/Tour, *Icon-text, *Subscribe Form (3 Style), Testimonial, Progress Counter, Team, Slider
+	MetaData: Testimonial, Subscribe Form, Icon Text.
+
+	[Blog Social Share URL - *Facebook, *Whatsapp, *Pinterest, *Twitter, Reddit, Tumblr, *LinkedIn, VK, telegram, *Email ]
+
+************************************************************
+
+................................
+
+*** Duties
+
+	# Tawk.to WP plugin review/feedback
+
+*** Specially Follow 2 Account - UXBARN, FastWP
+
+FastWP
+--- https://themeforest.net/user/fastwp/portfolio
+--- http://fastwp.net/welcome/
+
+UXBARN
+--- https://themeforest.net/user/uxbarn/portfolio
+--- https://themes.uxbarn.com/wp/kathy/
+
+.................................
