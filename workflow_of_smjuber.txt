@@ -1,8 +1,10 @@
 
-*** If you earn a minimum of 600 USD per month for up to 3 months, the service will be provided for the SMJUBER themes/site only ***
+*** If I released a minimum of 3 files out of 7 within May 30, service page of the site and looking for job are completely shutdown. ***
+*** If I released another 2 files out of 4 within July 09, then I will think about other 2 project. ***
+*** If I released another 1 files out of 2 within July 29, then I will think about last WP niche project, smjuber site management (company & marketing) and HatchWP site design ***
 Service Limit - Weekly 175 / Monthly 260 - maximum 
 
-Wphired [https://www.wphired.com/] | Workable[https://jobs.workable.com/] | https://jobs.wordpress.net/ | Stackoverflow [https://stackoverflow.com/jobs] | Linkedin [https://www.linkedin.com/jobs/]
+Wphired [https://www.wphired.com/] | Workable[https://jobs.workable.com/] | https://jobs.wordpress.net/ | Linkedin [https://www.linkedin.com/jobs/]
 
 Need block - Shawon from Rahima
 
@@ -19,21 +21,20 @@ Button - Hire me with url
 Location - Map URL, tootip, text
 Service - Testimonial Urls with text, 
 About - Social URls & Text
-new service (consultation - 30 USD)
 Pages: Blog- Posts & Single, Theme - Themes & Single, Privacy Policy, Submit A Ticket
 Style: PX to EM or REM value
 .....................................................................................
 
 [Pending - 3rd Part- Dependency 2nd Product Approval]
 Customizer: Review
-Block: Gutenberg
+Theme: Classic to Block or Hybrid Theme
 Pages: About, 404, Knowledgebase, 
 Style: Review
 ....................................................................
 
 [Pending - 4th Part - Dependency 3rd Product Approval]
 Customizer: Review
-Block: Review
+Theme: Review
 Pages: Plugin - Plugins & Single, Review
 Style: Review
 ....................................................................
@@ -52,11 +53,7 @@ Pause - [OFF]
 Themeforest - [TF]
 Done - [D]
 
-Upwork Clients Demo sites
---------------------------------------
-UN: uwclients
-PW: uw$$456852clients
-uwclients@smjuber.com
+***** Site design and features review  - After November, 2024 *****
 
 Design
 -------------------------------------
