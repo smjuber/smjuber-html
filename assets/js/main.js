@@ -81,6 +81,6 @@
 	 * Hidden Footer
 	 */
 
-	$('footer').siblings(':last').addClass('hidden-footer-shadow');
+	$('footer#colophon').siblings(':last').addClass('hidden-footer-shadow');
 
 })(jQuery);
