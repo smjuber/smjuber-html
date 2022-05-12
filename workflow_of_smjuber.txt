@@ -6,9 +6,6 @@ Service Limit - Weekly 175 / Monthly 260 - maximum
 
 Wphired [https://www.wphired.com/] | Workable[https://jobs.workable.com/] | https://jobs.wordpress.net/ | Linkedin [https://www.linkedin.com/jobs/]
 
-Need block - Shawon from Rahima
-
-
 *************************************
 						OFFICIAL SITE
 *************************************
@@ -107,8 +104,6 @@ https://codepen.io/VladimirVaize/pen/pojxGJm
 Menus ---------------------------------
 
  Theme. [UD]
- Plugin. [OFF]
- Services [D]
  Blog. [UD]
  Support. [UD]
 	Documentation.
@@ -133,13 +128,11 @@ Contact ---------------------- [Done]
 
 	Conatct Form - Live
 
-
 Themes -----------------------
 
 	Theme Page
 
 	Photo | Price | Category | Short Details | Tags | Name with title | Sales | Rattings| Buttons - Live Preview | Know More | Purchase
-
 
 	Theme Single
 
@@ -147,13 +140,11 @@ Themes -----------------------
 
 	Last Update | Created | Custom Widget | Compatible Browsers | Compatible Plugins | WP Versions | Column | RTL | Child Theme | Documentation | Files Type
 
-
 Plugins ----------------------- [OFF]
 
 	Theme Page
 
 	Photo | Price | Category | Short Details | Tags | Name with title | Sales | Rattings| Buttons - Live Preview | Know More | Purchase
-
 
 	Theme Single
 
@@ -183,7 +174,6 @@ Doc ------------------------- [D]
 	Doc Page
 
 	Title | Theme Version | Release Date-time | Update Date-time
-
 
 	Doc Single
 
