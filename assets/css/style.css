@@ -900,6 +900,18 @@ object {
 }
 
 
+/* Portfolio */
+
+.portfolio-1 {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg);
+  background-size: cover;
+}
+
 /* Content Shadow  */
 
 .hidden-footer-shadow {
