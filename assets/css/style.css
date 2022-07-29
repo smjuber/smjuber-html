@@ -900,17 +900,138 @@ object {
 }
 
 
-/* Portfolio */
+/** Portfolio **/
+
+.portfolios {
+    padding: 130px 0;
+}
+
+.portfolio {
+    height: 75vh;
+    padding: 40px 20px 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.portfolio:last-child {
+    margin-bottom: 0;
+}
+
+.portfolio-details {
+    width: 550px;
+}
+
+.portfolio h3 {
+    font-size: 45px;
+}
+
+.portfolio h3 a {
+    color: #fff;
+}
+
+.portfolio h3 a:hover {
+    text-decoration: none;
+}
+
+.portfolio p {
+    font-size: 18px;
+}
+
+.portfolio li {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.portfolio li span {
+    font-weight: 600;
+    display: inline-block;
+    width: 150px;
+}
+
+.portfolio li a {
+    color: #fff;
+}
 
 .portfolio-1 {
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
     ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg);
+    url("../images/portfolios/jason.png");
   background-size: cover;
 }
+
+.portfolio-2 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/smjuber-extension.png");
+  background-size: cover;
+}
+
+.portfolio-3 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/manhashop.png");
+  background-size: cover;
+}
+
+.portfolio-4 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/casajada.png");
+  background-size: cover;
+}
+
+.portfolio-5 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/tiny-house-grid.png");
+  background-size: cover;
+}
+
+.portfolio-6 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/tinds.png");
+  background-size: cover;
+}
+
+.portfolio-7 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/anitaa-nigaam.png");
+  background-size: cover;
+}
+
+.portfolio-8 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/fariha-jewellers.png");
+  background-size: cover;
+}
+
 
 /* Content Shadow  */
 
@@ -1868,6 +1989,27 @@ object {
     }
 
 
+    /** Portfolio **/
+
+    .portfolios {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .portfolio {
+        margin-bottom: 15px;
+    }
+
+    .portfolio h3 {
+        font-size: 20px;
+    }
+
+    .portfolio p,
+    .portfolio li {
+        font-size: 14px;
+    }
+    
+
     /** Documentation **/
 
     .documentations-list {
@@ -2188,6 +2330,14 @@ object {
 
     .profile-description h3 {
         font-size: 42px;
+    }
+
+
+    /** Portfolio **/
+
+    .portfolios {
+        padding-top: 110px;
+        padding-bottom: 110px;
     }
 
 
