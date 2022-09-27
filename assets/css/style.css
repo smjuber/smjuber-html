@@ -1785,10 +1785,10 @@ object {
 /* # Media Queries
 ------------------------------------------------- */
 
-/* ## Extra Small Devices ( portrait phones, less than 576px or 34em )
+/* ## Extra Small Devices ( portrait phones, less than 576px )
 ------------------------------------------------- */
 
-@media only screen and ( max-width: 35.9em ) {
+@media only screen and ( max-width: 575.98px ) {
 
     body {
         font-size: 16px;
@@ -2167,10 +2167,10 @@ object {
 }
 
 
-/* ## Small Devices ( landscape phones, 576px or 34em and up )
+/* ## Small Devices ( landscape phones, 576px and up )
 ------------------------------------------------- */
 
-@media ( min-width: 36em ) and ( max-width: 47.9em ) {
+@media ( min-width: 576px ) and ( max-width: 767.98px ) {
 
     body {
         font-size: 16px;
@@ -2468,10 +2468,10 @@ object {
 }
 
 
-/* ## Medium Devices ( tablets, 768px or 48em and up )
+/* ## Medium Devices ( tablets, 768px and up )
 ------------------------------------------------- */
 
-@media ( min-width: 48em ) and ( max-width: 61.9em ) {
+@media ( min-width: 768px ) and ( max-width: 991.98px ) {
 
     body {
         font-size: 16px;
@@ -2728,10 +2728,10 @@ object {
 }
 
 
-/* ## Large Devices ( desktops, 992px or 62em and up )
+/* ## Large Devices ( desktops, 992px and up )
 ------------------------------------------------- */
 
-@media ( min-width: 62em ) and ( max-width: 74.9em ) {
+@media ( min-width: 992px ) and ( max-width: 1199.98px ) {
 
     body {
         font-size: 16px;
@@ -2862,10 +2862,10 @@ object {
 }
 
 
-/* ## Extra Large Devices ( large desktops, 1200px or 75em and up )
+/* ## Extra Large Devices ( large desktops, 1200px and up )
 ------------------------------------------------- */
 
-@media ( min-width: 75em ) and ( max-width: 87.4em ) {
+@media ( min-width: 1200px ) and ( max-width: 1399.98px ) {
     
     /* Header Page Title */
 
