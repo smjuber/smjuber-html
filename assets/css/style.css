@@ -1032,6 +1032,16 @@ object {
   background-size: cover;
 }
 
+.portfolio-9 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/tradex.webp");
+  background-size: cover;
+}
+
 
 /* Content Shadow  */
 
