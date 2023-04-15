@@ -978,7 +978,7 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/manhashop.webp");
+    url("../images/portfolios/casajada.webp");
   background-size: cover;
 }
 
@@ -988,7 +988,7 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/casajada.webp");
+    url("../images/portfolios/tiny-house-grid.webp");
   background-size: cover;
 }
 
@@ -998,7 +998,7 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/tiny-house-grid.webp");
+    url("../images/portfolios/tinds.webp");
   background-size: cover;
 }
 
@@ -1008,7 +1008,7 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/tinds.webp");
+    url("../images/portfolios/fariha-jewellers.webp");
   background-size: cover;
 }
 
@@ -1018,7 +1018,7 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/fariha-jewellers.webp");
+    url("../images/portfolios/kariman-fashion-house.webp");
   background-size: cover;
 }
 
@@ -1028,7 +1028,7 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/kariman-fashion-house.webp");
+    url("../images/portfolios/tradex.webp");
   background-size: cover;
 }
 
@@ -1038,7 +1038,27 @@ object {
       rgba(0, 102, 152, 0.85),
       rgba(0, 102, 152, 0.85)
     ),
-    url("../images/portfolios/tradex.webp");
+    url("../images/portfolios/miamibd.webp");
+  background-size: cover;
+}
+
+.portfolio-10 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/t4c.webp");
+  background-size: cover;
+}
+
+.portfolio-11 {
+    background: 
+    linear-gradient(
+      rgba(0, 102, 152, 0.85),
+      rgba(0, 102, 152, 0.85)
+    ),
+    url("../images/portfolios/impactac.webp");
   background-size: cover;
 }
 
