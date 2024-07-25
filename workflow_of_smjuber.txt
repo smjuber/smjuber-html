@@ -1,139 +1,41 @@
 
-*** Upwork Direct Contracts - Video Creation
-https://www.upwork.com/workwith/smmehadihasanj
 
+---------------------------- 6000 Sell Min
 
-*** SEP, 30 - Completed, released and approved a minimum of 1st files out of 4 ***
-*** OCT, 10 - Completed, released and approved the 2nd files out of 3 , then I will think about the 3rd project and develope to eassential plugins (especially blocks) for the themes. ***
-*** OCT, 30 - Completed, released and approved the 3rd file, then I will think about the 4th project, develope to eassential plugins (especially blocks) for the themes, HWP system and final version of SMJUBER ***
-*** NOV, 30 - Completed, released and approved the 4th file, then I will think to develope eassential plugins (especially blocks) for the themes, HWP system, final version of SMJUBER for the next 2-3 years and 4 other Niche Theme ***
-*** DEC, 30 - TF files review, develope eassential plugins (especially blocks) for the themes, final version HWP system for the next 2-3 years and 4 other Niche Theme ***
-*** JAN, 15 - Develope eassential plugins (especially blocks) for the themes and 4 other Niche Theme ***
-*** JAN, 30 - Develope eassential plugins (especially blocks) for the themes and complete, release and approved 1st niche theme for WP.ORG/Envato & think about 4th item ***
-*** FEB, 30 - Develope eassential plugins (especially blocks) for the themes and complete, release and approved 2nd niche theme for WP.ORG/Envato & think about 4th item ***
-*** MAR, 30 - Develope eassential plugins (especially blocks) for the themes and complete, release and approved 3rd niche theme for WP.ORG/Envato & think about 4th item ***
-*** APR, 30 - Finally develope eassential plugins (especially blocks) for the themes and complete, release and approved 4th niche theme for WP.ORG ***
-*** JUL, 15 - Complete, release and approved MP theme for WP.ORG *** V1
-*** JUL, 16 - 1st update for MP theme ***
-*** JUL, 21 - 2nd update for MP theme ***
-*** JUL, 28 - 3rd update for MP theme ***
-*** JUL, 31 - 4th update for MP theme ***
-*** AUG, 10 - 5th update for MP theme ***
-*** AUG, 25 - 6th update for MP theme ***
-*** SEP, 20 - 7th update for MP theme ***
-*** NOV, 10 - 8th update for MP theme ***
-*** JAN, 20 - 9th update for MP theme *** V2
-*** JAN, 29 - 10th update for MP theme ***
-*** MAR, 30 - 11th update for MP theme ***
+1. Nayar
 
-Project [1] - Within Aug 30, 2022
+2. Rhine
 
-- TF 2 Projects [Nayar & Sapient]
-- Smjuber WP Site Review - After releases the premium projects [Essential and Pending Changes]
-- Hatch HTML and WP Site Structure & Features - After premium project and smjuber site review
+3. Legally
 
-Project [2] - Within Sep 15, 2022
+4. Megapile
 
-- TF 2 Projects [Legally & Megapile]
-- Smjuber WP Site Review - After releases the premium projects [Essential and Pending Changes]
-- Hatch WP Site Design - After premium project and smjuber site review
+5. Cartbase
 
-Project [3] - Within Sep 30, 2022
-
-- TF files review
-- Smjuber WP Site Review - After TF files completed the review [Essential and Pending Final Changes for 2 Years]
-- Hatch WP Site Design - After TF files review and completed smjuber site.
-
-Project [4] - Within Oct 15, 2022
-
-- Freemium 1st Niche Project - Complete, release and approved [Blog]
-- Hatch WP Site Development - After freemium Project
-- SMJUBER site and items common tasks - After freemium Project and HatchWP
-
-Project [5] - Within Oct 30, 2022
-
-- Freemium 2nd Niche Project - Complete, release and approved [Photography]
-- HatchWP Site and items common tasks - After freemium Project
-- SMJUBER site and items common tasks - After freemium Project and HatchWP
-
-Project [6] - Within Nov 15, 2022
-
-- Freemium 3rd Niche Project - Complete, release and approved [Portfolio]
-- HatchWP Site and items common tasks - After freemium Project
-- SMJUBER site and items common tasks - After freemium Project and HatchWP
-
-Project [7] - Within Nov 30, 2022
-
-- Premium 3 Project Version Release - Develop and release 3 premium version form freemiun project in HWP
-- Freemium 4th Niche Project - Complete, release and approved [eCommerce]
-- HatchWP Site and items common tasks - After freemium Project
-- SMJUBER site and items common tasks - After freemium Project and HatchWP
-
-Project [8] - Within Dec 15, 2022
-
-- Premium Version Release Last Niche Project - Develop and release last niche project premium version form freemiun project in HWP
-- TF All Projects [Final Review]
-- Freeemium All Projects [Final Review]
-- Premium All Niche Projects HWP [Final Review]
-- SMJUBER site [Final Review]
-- HatchWP site [Final Review]
-
-Project [9] - Within Dec 25, 2022
-
-- Release premium version items for HWP
-
-Project [10] - From Jan 20, 2022
-
-- Start work for WP MP theme.
-
-Project [0] - Within April 15, 2023
-
-- Completed, release and approved WP MP theme on HWP
-
---------------------------------------------------------------------------
-
-*** Wait for 1M BDT investment for initial release the MP project & total 10M BDT *** 
-
-*** Service Limit - 150 USD | Depends on file approval, sell and business progress.
-*** Affiliate - 11.70 | 14.70 | 17.7
-
-Wphired [https://www.wphired.com/] | Workable[https://jobs.workable.com/] | https://jobs.wordpress.net/ | Linkedin [https://www.linkedin.com/jobs/]
 
 *************************************
-						OFFICIAL SITE
+			OFFICIAL SITE
 *************************************
 
-
-[Pending - 2nd Part - Dependency 1st Product Approval]
-Company Title - [Thoughtfully made]
-Customizer: 
-Button - Hire me with url
-Location - Map URL, tootip, text
-Service - Testimonial Urls with text, 
-About - Social URls & Text
-Pages: Blog- Posts & Single, Theme - Themes & Single, Privacy Policy, Submit A Ticket
-Style: PX to EM or REM value
+Header & Footer - Redesign for Affilate Market. [Make Professional]
+Service - Content - Steps, Service Details, Testimonial (Upwork, Envato), FAQs, Order Form 
+Pages: Blog - Posts & Single,  Privacy Policy
+Style: PX to EM or REM value Other formation
 .....................................................................................
 
-[Pending - 3rd Part- Dependency 2nd Product Approval]
 Customizer: Review
-Theme: Classic to Block or Hybrid Theme
-Pages: About, 404, Knowledgebase, 
+Pages: Theme - Themes & Single
 Style: Review
 ....................................................................
 
-[Pending - 4th Part - Dependency 3rd Product Approval]
 Customizer: Review
-Theme: Review
-Pages: Plugin - Plugins & Single, Review
+Pages: Knowledgebase, documentation, Forum, Ticketing & account with Envato API verification 
 Style: Review
 ....................................................................
 
-[Pending - Final Part - Dependency 4th Product Approval]
 Customizer: Review
-Block: Review
-Pages: Plugin - Plugins & Single, Review
-Style: Review
+Pages: Plugin - Plugins & Single
+Style & Script: Review
 ....................................................................
 
 Statuses: 
@@ -148,20 +50,19 @@ Done - [D]
 Design
 -------------------------------------
 
-Header [Universal]
+Header [Universal][Knowledgebase]
 Footer [Universal]
 
-Features Icon-content box [OFF]
+Home Page [UD]
+Features Icon-content box [UD]
 Title + Paragraph [OFF]
-Testimonial [OFF]
-Counters [OFF]
+Testimonial [Depends On The Marketplaces]
+Counters [UD]
 All Without Sidebar
 Video Documentation should Comment Turn off
 
 Theme Box - Featured 1 (Section) + Grid 3 Column  [TF][UD]
-Plugin Box [OFF]
 *Blog Box - 1 Column [UD]
-Doc Box - Grid 3 Column
 Contact - [TF, Footer, Live Chat]
 
 Privacy Policy #
@@ -198,7 +99,7 @@ Menus ---------------------------------
 
  Theme. [UD]
  Blog. [UD]
- Support. [UD]
+ Support. [UD][Need To Gather Knowledge]
 	Documentation.
 	Knowledgebase.
 	Submit Ticket.
@@ -208,18 +109,17 @@ Menus ---------------------------------
 Task List
 -------------------------------------
 
-**  smjuber-doc - Scroolspy BS 5
-**  SMJUBER Doc - Setup and debug
-**  WP Super Cache - Setup
-**  Forum with BBpress - [OMD]
-**  Ticketing sytem with Envato API - [OMD]
-**  Custom CSS FrameWork - For Giant Theme [OMD]
+*****  	WP Super Cache - Setup
+**  	Forum with BBpress - [OMD]
+**  	Ticketing sytem with Envato API - [OMD]
+**  	Custom CSS FrameWork - For Giant Theme [OMD]
+**  	Custom Block Plugins
 
 ********** Detail Structure and Contents ******************
 
 Contact ---------------------- [D]
 
-	Conatct Form - Live
+	Conatct Form
 
 Themes ----------------------- [UD]
 
@@ -248,21 +148,15 @@ Blog ----------------------- [UD]
 
 	Related Post (Published Date-time) | Pagination | Comment Box  | Author
 
+KhonwledgeBase/Forum-Ticketing-Users/Doc ------------------------- [D]
 
-Doc ------------------------- [D]
+	Know.Base Page
 
-	Doc Page
-
-	Title | Theme Version | Release Date-time | Update Date-time
-
-	Doc Single
-
-	Title | Theme Version | Author | Release Date-time | Update Date-time | Content
-
+	Title | Search | Docs
 
 About ---------------------- [D]
 
-	Short details with photo or video or galary & social information | Card - Work Processes (Plan - Design - Development - Test - Execute) | Team | Mission-Vission
+	Short details with photo or video or galary & social information | Card - Work Processes (Plan - Design - Development - Test - Execute) | Mission-Vission
 
 
 404 Page ------------------- [D]
@@ -271,8 +165,8 @@ About ---------------------- [D]
 
 
 Services ------------------- [D]
-
-	Steps | Service Categories/Pricing | Testimonial | FAQs | Order Form | Service Guarantee
+	
+	Steps | Service Categories/Pricing | Testimonial | FAQs | Order Form | Service Guarantee & Features
 
 Features Section -------------
 
@@ -286,13 +180,13 @@ Features Section -------------
 
 Main Plugin Features ---------
   
-	CPTnTax: *Theme, *Plugin, *Doc
+	CPTnTax: *Theme,
 	Widgets: *Facebook, *Social Icon, *Ad
 	Shortcode: *Social Share
 	Blocks: *Social Share, *Social Icon, *Ad, Accordion, Tab/Tour, *Icon-text, *Subscribe Form (3 Style), Testimonial, Progress Counter, Team, Slider
 	MetaData: Testimonial, Subscribe Form, Icon Text.
 
-	[Blog Social Share URL - *Facebook, *Whatsapp, *Pinterest, *Twitter, Reddit, Tumblr, *LinkedIn, VK, telegram, *Email ]
+	[Blog Social Share URL - *Facebook, *Whatsapp, *Pinterest, *Twitter, Reddit, Tumblr, *LinkedIn, telegram, *Email, Inatagram ]
 
 ************************************************************
 
